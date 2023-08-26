@@ -1,66 +1,81 @@
 body {
-    background-color: #c4bbbb;
-    background-image: url(/images/TrainStationMSP.jpg);
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: #ffffff;
-    text-align: justify;
-    margin: 3.5em;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  
+  font-family: 'Roboto', sans-serif;
+  background-image: url("/images/TrainStationMSP.jpg");
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 50%;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 button {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #000000;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: 1px solid black;
 }
 
 #increment-btn {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
+  background-color: #005a0a;
+  border-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
 }
 
 #save-btn {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
+  background-color: #ff0000;
+  border-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
 }
+
+#save-el {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/*----------------------------------------------*/
