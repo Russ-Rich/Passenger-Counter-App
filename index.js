@@ -22,3 +22,15 @@ function reset() {
 	countEl.textContent = count;
 	saveEl.textContent = "Previous entries: ";
 }
+
+let counter = 0;
+
+document.addEventListener("DOMContentLoaded", () => {
+	const incrementBtn = document.getElementById("increment-btn");
+	const counterDisplay = document.getElementById("counter-display");
+
+	incrementBtn.addEventListener("click", () => {
+		counter++;
+		counterDisplay.innerText = counter;
+	});
+});

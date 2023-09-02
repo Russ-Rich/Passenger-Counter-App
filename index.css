@@ -1,11 +1,20 @@
 body {
 	font-family: "Roboto", sans-serif;
 	background-image: url(/images/TrainStationMSP.jpg);
-	background-size: cover; /* Make sure the image covers the entire background */
+	/* Added background image */
+	background-position: center;
+	/* Center the image */
+	background-repeat: no-repeat;
+	/* Do not repeat the image */
+	background-attachment: fixed;
+	/* Fixed the image */
+	background-size: cover;
+	/* Make sure the image covers the entire background */
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: 400;
 	line-height: 1.5;
 	color: #000000;
+	/* Updated text color */
 	text-align: center;
 	margin: 0;
 	padding: 0;
@@ -15,17 +24,30 @@ body {
 
 .container {
 	max-width: 50%;
+	/* Added max-width */
+	/* Added margin */
 	margin: auto;
+	/* Added padding */
 	padding-left: 1rem;
 	padding-right: 1rem;
-	border: 3px solid #000000; /* Updated border color */
+	border: 3px solid #000000;
+	/* Updated border color */
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.9); /* Added some opacity */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Added shadow */
+	background-color: rgba(255, 255, 255, 0.9);
+	/* Added some opacity */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+	/* Added shadow */
 }
 
 h1,
 h2 {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: -1px; /* Changed letter spacing to make it look more like a real font */
+	letter-spacing: normal !important;
+	word-wrap: break-all;
+	/* Added word-wrap */
+	font-variant: small-caps;
+	/* Added font variant for better readability of titles*/
 	font-size: 2.5rem;
 	font-weight: bold;
 	line-height: 1.2;
@@ -35,10 +57,19 @@ h2 {
 
 h2 {
 	font-size: 2rem;
-	color: #000000; /* Updated text color */
+	color: #000000;
+	/* Updated text color */
+	margin-bottom: 0.75em;
 }
 
 button {
+	display: inline-block;
+	/* Added display */
+	vertical-align: middle;
+	/* Added vertical align */
+	overflow: visible;
+	/* Added overflow */
+
 	font-family: "Roboto", sans-serif;
 	font-size: 1rem;
 	font-weight: bold;
@@ -46,11 +77,12 @@ button {
 	color: #ffffff;
 	text-align: center;
 	margin: 0;
-	padding: 0.5rem 1rem; /* Added padding */
+	padding: 0.5rem 1rem;
+	/* Added padding */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	border: none; /* Removed border */
-	transition: all 0.3s; /* Added transition */
+	border: none;
+	/* Removed border */
 }
 
 #increment-btn {
@@ -60,7 +92,10 @@ button {
 }
 
 #increment-btn:hover {
-	background-color: #2ecc71; /* Added hover effect */
+	box-shadow: inset -4px -4px 8px rgba(9, 17, 27); /* Added box
+	background-color: #2ecc71;
+  
+	/* Added hover effect */
 }
 
 #save-btn {
@@ -70,7 +105,8 @@ button {
 }
 
 #save-btn:hover {
-	background-color: #c0392b; /* Added hover effect */
+	background-color: #c0392b;
+	/* Added hover effect */
 }
 
 #save-el {
@@ -85,5 +121,6 @@ button {
 }
 
 #reset-btn:hover {
-	background-color: #d39400; /* Added hover effect */
+	background-color: #d39400;
+	/* Added hover effect */
 }
