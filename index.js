@@ -16,3 +16,9 @@ function save() {
 	count = 0;
 	console.log(count);
 }
+
+function reset() {
+	count = 0;
+	countEl.textContent = count;
+	saveEl.textContent = "Previous entries: ";
+}

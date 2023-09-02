@@ -16,37 +16,39 @@ Hey there! 🙌 Welcome to my **Counter App**! Ever find yourself in a situation
 
 ## 🛠 Tech Stack
 
-- 🌐 HTML5
-- 🎨 CSS
-- 🖥 Vanilla JavaScript
+-   🌐 HTML5
+-   🎨 CSS
+-   🖥 Vanilla JavaScript
 
 ## 💥 Features
 
-- **👆 Increment Mode**: Just hit the "INCREMENT" button and let the counting begin! 📈
+-   **👆 Increment Mode**: Just hit the "INCREMENT" button and let the counting begin! 📈
 
 ## 🔨 Installation
 
 1. 📦 Clone the repo like a pro:
+
     ```bash
     git clone https://github.com/your-repo/counter-app.git
     ```
-  
+
 2. 🛠 Fire up your fav code editor.
 
 3. 🌍 Got a live server extension? Awesome. If not, the HTML file alone will get the ball rolling.
 
 ## 🎮 How to Use
 
-- **👆 Counting Time**: Just smash that "INCREMENT" button to see the numbers rise. Simple, right?
+-   **👆 Counting Time**: Just smash that "INCREMENT" button to see the numbers rise. Simple, right?
 
 ### Code Snippet 📝
+
 ```javascript
 let countEl = document.getElementById("count-el");
 let count = 0;
 
 function increment() {
-    count += 1;
-    countEl.innerText = count;
+	count += 1;
+	countEl.innerText = count;
 }
 ```
 
@@ -54,8 +56,8 @@ function increment() {
 
 Wanna make this even more epic? 🌈 Feel free to open a pull request or issue. But hey, let's keep it clean:
 
-- Make sure all code is properly formatted and passes Prettier and Lint tests.
-- Only modify the parts of the files that pertain to your changes.
+-   Make sure all code is properly formatted and passes Prettier and Lint tests.
+-   Only modify the parts of the files that pertain to your changes.
 
 ## ⚖ License
 
